@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/images/icons/icons.css">
+    <link rel="stylesheet" href="/css/ejemplobarrasocial.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <div ng-app="appHttp">
+        
+        <div style="text-align: center;">
+           <!-- <div> carrudel de imagenes en la bienvenica acerca de actividades de la ong          
+            <img src="./images/voluntarios.jpg" alt="">
+            </div> -->                    
+        <a href="#!main">Main</a>
+        <a href="#!quienes-somos">Quienes somos</a>
+        <a href="#!proyectos">Proyectos</a>
+        <a href="#!voluntarios">Voluntarios</a>
+        <a href="#!alianzas">Alianzas</a>
+        <a href="#!hazte-voluntario">Hazte Voluntario</a>
+        
+            <div class="social-bar">
+                <a href="https://www.facebook.com/" target="_blank" class="icon icon-facebook"></a>
+                <a href="https://www.twitter.com/" target="_blank" class="icon icon-twiter"></a>
+                <a href="https://www.youtube.com/" target="_blank" class="icon icon-youtube"></a>
+                <a href="https://plus.google.com/" target="_blank" class="icon icon-google-plus3"></a>
+                <a href="https://www.instagram.com/" target="_blank" class="icon icon-instagram"></a>
+                <a href="https://www.pinterest.com/" target="_blank" class="icon icon-pinterest-square"></a>
+            </div>
+        
+    </div>
+        <div ng-view></div>
+    </div>   
+    <script src="router-module.js"></script>
+    <script src="router-config.js"></script>
+
+
+
+</body>
+</html>
